@@ -7,8 +7,7 @@
             Contexto: Dado que como cliente acesse o EBAC-SHOP
 
             Cenario: Autenticação válida
-            Quando Inserir usuário "usuario@teste.com"
-            E senha "senha@123"
+            Quando Inserir usuário/senha "usuario@teste.com/"senha@123"
             Entao Direcionar para a pagina checkout
 
             Cenario: Usuário com senha Invalida

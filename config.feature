@@ -8,15 +8,13 @@ Para depois inserir ou excluir no carrinho
 Contexto: Dado que o cliente acesse o portal EBAC-SHOP
 
 Cenario: Escolher Produto COM sucesso
-Quando  escolher algum produto e customizar tamanho, cor e quantidade
-Entao o item deve ser acrescido no carrinho com o maximo de 10 itens
-E Caso pressione o botão limpar carrinho
-Entao volar para Pagna inicial
+Quando  escolher um item e customizar tamanho, cor e quantidade
+Entao volta para Pagna inicial
 
-Cenario: Escolher Produto SEM sucesso
-Quando  escolher algum produto e customizar tamanho, cor e quantidade
-Entao o item não foi acrescido no carrinho e com mais de 10 itens
-E Caso pressione o botão limpar carrinho
+
+
+Cenario: item não foi acrescido no carrinho e com mais de 10 itens
+Quando  Caso pressione o botão limpar carrinho
 Entao deve exibir a mensagem de "<mensagem e erro">
 
 
